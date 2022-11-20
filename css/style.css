@@ -257,6 +257,7 @@ main{
     margin: 0 auto;
     left: 0;
     right: 0;
+    max-width: 780px;
     width: 80%;
     background-color: #fff;
     display: none;
