@@ -74,6 +74,11 @@ function calculateFontSize() {
 
 function copyPassword() {
     navigator.clipboard.writeText(passwordInput.value);
+    let alertCopy = document.querySelector('.alert-copy')
+    alertCopy.classList.add('active')
+    setTimeout(function(){
+        alertCopy.classList.remove('active')
+    }, 2000)
 }
 
 function calculateQuality() {
